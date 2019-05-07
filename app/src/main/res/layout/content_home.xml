@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/banksakuWhite">
+
+    <Spinner
+        android:id="@+id/spinnerDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewTotalTransaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/last_transaction"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewTransaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/textViewNotDataFound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/data_not_found"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="@dimen/action_bar_margin"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+
+</LinearLayout>

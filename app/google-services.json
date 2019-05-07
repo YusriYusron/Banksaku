@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1017632164803",
+    "firebase_url": "https://banksaku-79b76.firebaseio.com",
+    "project_id": "banksaku-79b76",
+    "storage_bucket": "banksaku-79b76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017632164803:android:a323ccbf44e395c4",
+        "android_client_info": {
+          "package_name": "com.banksaku.banksaku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017632164803-9gtmrmlhtlipr4gdacpq1b11k3cf479b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.banksaku.banksaku",
+            "certificate_hash": "1c4761e60515634d730bdf7f765a77a55e584eca"
+          }
+        },
+        {
+          "client_id": "1017632164803-g0gol1fcsuhinlm504vplunrbpncufq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.banksaku.banksaku",
+            "certificate_hash": "ec603d623edf9f808804a2ee843e024779949265"
+          }
+        },
+        {
+          "client_id": "1017632164803-eiov0o6ihse22aepd1sfak5ck4cabk2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTX7SxmmCrBPdZ_AI-0tN5VRe-OLDp9hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017632164803-eiov0o6ihse22aepd1sfak5ck4cabk2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

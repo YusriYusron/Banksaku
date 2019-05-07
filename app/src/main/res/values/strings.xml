@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Banksaku</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_notification">Notification</string>
+    <string name="add_transaction">Tambah Transaksi</string>
+    <string name="incoming_call">Panggilan masuk</string>
+    <string name="default_name">Si Ateng</string>
+    <string name="help">Bantuan</string>
+    <string name="criticism_suggestion">Hallo, terima kasih telah menggunakan Banksaku, kami sangat senang mendengarkan saran atau kritik dari Anda. Jika tidak keberatan silahkan kirimkan email kepada kami.</string>
+    <string name="send_email">Kirim Email</string>
+    <string name="income_feature">Pemasukan :  Fitur untuk mengelola atau mencatat pemasukan keuangan Anda</string>
+    <string name="expanse_feature">Pengeluaran :  Fitur untuk mengelola atau mencatat pengeluaran keuangan Anda</string>
+    <string name="plan_feature">Rencana Anggaran :  Fitur untuk mengelola atau mencatat rencana keuangan Anda yang dimana Anda dapat mengatur pengingat agar rencana belanja Anda tidak terlewat</string>
+    <string name="login">Masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="dont_have_account">Belum memiliki akun?</string>
+    <string name="register">Registrasi</string>
+    <string name="home">Beranda</string>
+    <string name="last_transaction">Transaksi Terakhir</string>
+    <string name="data_not_found">Data Tidak Ditemukan</string>
+    <string name="budget_plan">Rencana Anggaran</string>
+    <string name="amount">Jumlah</string>
+    <string name="category">Kategori</string>
+    <string name="date">dd/mm/yyyy</string>
+    <string name="choose_date">Pilih Waktu</string>
+    <string name="note">Catatan</string>
+    <string name="set_reminder">Atur Pengingat</string>
+    <string name="time">Waktu</string>
+    <string name="hour">Jam</string>
+    <string name="add">Tambah</string>
+    <string name="shopping">Belanja</string>
+    <string name="price">Rp. 58.000</string>
+    <string name="toiletries">Perlengkapan Mandi</string>
+    <string name="date_example">20.2.2019</string>
+    <string name="cancel">Batal</string>
+    <string name="done">Selesai</string>
+    <string name="total_expanse">Total Pengeluaran</string>
+    <string name="time_example">10.30 WIB</string>
+    <string name="name_example">Restu Bayu Aji</string>
+    <string name="email_example">jempolsamparan@gmail.com</string>
+    <string name="setting">Pengaturan</string>
+    <string name="old_password">Password Lama</string>
+    <string name="new_password">Password Baru</string>
+    <string name="confirm_new_password">Konfirmasi Password Baru</string>
+    <string name="income">Pemasukan</string>
+    <string name="expanse">Pengeluaran</string>
+    <string name="plan">Rencana</string>
+    <string name="update">Ubah</string>
+    <string name="delete">Hapus</string>
+    <string name="delete_message">Yakin akan hapus data?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="change">Ubah</string>
+
+    <string-array name="date">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+    </string-array>
+
+    <string-array name="category_transaction">
+        <item>Makanan</item>
+        <item>Pakaian</item>
+        <item>Belanja</item>
+    </string-array>
+
+    <string-array name="transaction">
+        <item>Pemasukan</item>
+        <item>Pengeluaran</item>
+        <item>Rencana</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

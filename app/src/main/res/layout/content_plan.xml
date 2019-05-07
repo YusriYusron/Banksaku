@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/banksakuWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@android:color/black"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/budget_plan"
+            android:textSize="24sp"
+            android:layout_marginRight="@dimen/action_bar_margin"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/roboto_regular"/>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewPlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/textViewNotDataFound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/data_not_found"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="@dimen/action_bar_margin"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+
+</LinearLayout>

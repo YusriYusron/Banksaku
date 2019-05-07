@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="24dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.CallActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/incoming_call"
+        android:textSize="24sp"
+        android:textColor="@color/banksakuColor"
+        android:fontFamily="@font/roboto_black"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="32dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_height="250dp"
+            android:src="@drawable/banksaku_call"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="335dp"
+            android:layout_height="200dp"
+            android:src="@drawable/banksaku_photo"
+            android:layout_marginTop="25dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24sp"
+        android:text="@string/default_name"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/roboto_black"/>
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_name"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/roboto_regular"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#C7C7CD"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/banksaku_call_reject"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/banksaku_call_acc"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
